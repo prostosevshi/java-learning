@@ -1,14 +1,7 @@
-public class Task_1 {
+public class Task1 {
 
-    int[] array;
-    int curMin, curMinIndex, compareTemp;
-
-    public Task_1(int[] arrayToSort) {
-        array = arrayToSort;
-        selectionSort();
-    }
-
-    public void selectionSort() {
+    public void selectionSort(int[] array) {
+        int curMin, curMinIndex, compareTemp;
         for (int i = 0; i < array.length - 1; i++) {
             curMin = array[i];
             curMinIndex = i;
